@@ -1,9 +1,8 @@
-// By: Gonçalo Leão
 
 #include "exercises.h"
 
 bool sum3(unsigned int T, unsigned int nums[3]) {
-    //TODO...
+    
 
     return false;
 }
