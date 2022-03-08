@@ -8,7 +8,7 @@ bool sum3(unsigned int T, unsigned int nums[3]) {
         {
             for (int l = 0; l < T; l++)
             {
-                if (l + j + i == 10)
+                if (l + j + i == T)
                 {
                     nums[0] = i;
                     nums[1] = j;
