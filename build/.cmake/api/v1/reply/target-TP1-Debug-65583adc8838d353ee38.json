@@ -117,6 +117,10 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "gmock::@7e3384afdb8f59c86a5a"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "gmock_main::@7e3384afdb8f59c86a5a"
 		},
 		{
@@ -126,10 +130,6 @@
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@ccedbc95f081fc42d06b"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "gmock::@7e3384afdb8f59c86a5a"
 		}
 	],
 	"id" : "TP1::@6890427a1f51a3e7e1df",

@@ -1,29 +1,24 @@
-// By: Gonçalo Leão
-
 #include "exercises.h"
 
 int maxSubsequence(int A[], unsigned int n, unsigned int &i, unsigned int &j) {
-    int sum;
-    int maxSum;
+    int maxSum = INT_MIN;
     for (int l = 0; l < n-1; l++)
     {
         for (int m = l+1; m < n; m++)
         {
-            int aux=i;
-            while (i<m)
+            int aux=l;
+            int sum = 0;
+            while (aux<=m)
             {
-                sum +=A[aux];
+                sum += A[aux];
                 aux++;
             }
-            if (l == 0 && m == 1) maxSum = sum;
             if (sum>maxSum)
             {
                 maxSum=sum;
                 i = l;
                 j = m;
             }
-            
-            
         }
     }
     return maxSum;
