@@ -1,11 +1,28 @@
-// By: Gonçalo Leão
-
 #include "exercises.h"
+#include <iostream>
+
+using namespace std;
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    //TODO...
-
-    return false;
+    int coinsIndex=0;
+    for (int i = n; i <= 0; i--)
+    {
+        if (C[i] > T)
+        {
+            continue;
+        } else if (Stock[i] > 0){
+            usedCoins[coinsIndex] = C[i];
+            coinsIndex++;
+            T -= C[i];
+            Stock[i]--;
+        }
+        cout << T << endl;
+    }
+    if (T > 0)
+    {
+        return false;
+    }
+    return true;
 }
 
 /// TESTS ///
