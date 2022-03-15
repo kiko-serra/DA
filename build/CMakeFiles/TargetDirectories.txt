@@ -1,4 +1,6 @@
 /Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/TP1.dir
+/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/TP2a.dir
+/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/TP2b.dir
 /Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/edit_cache.dir
 /Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/rebuild_cache.dir
 /Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/list_install_components.dir

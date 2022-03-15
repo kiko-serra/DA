@@ -17,3 +17,27 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
   file(TOUCH_NOCREATE "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/cmake.verify_globs")
 endif()
+
+# TP2a_FILES at CMakeLists.txt:10 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/*.cpp")
+set(OLD_GLOB
+  "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex1.cpp"
+  "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex2.cpp"
+  "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex3.cpp"
+  "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex4.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# TP2b_FILES at CMakeLists.txt:11 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/*.cpp")
+set(OLD_GLOB
+  "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/ex1.cpp"
+  "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/ex2.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/CMakeFiles/cmake.verify_globs")
+endif()

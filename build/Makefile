@@ -176,6 +176,32 @@ TP1/fast:
 .PHONY : TP1/fast
 
 #=============================================================================
+# Target rules for targets named TP2a
+
+# Build rule for target.
+TP2a: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP2a
+.PHONY : TP2a
+
+# fast build rule for target.
+TP2a/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/build
+.PHONY : TP2a/fast
+
+#=============================================================================
+# Target rules for targets named TP2b
+
+# Build rule for target.
+TP2b: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP2b
+.PHONY : TP2b
+
+# fast build rule for target.
+TP2b/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/build
+.PHONY : TP2b/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -395,12 +421,158 @@ TP1/ex7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1.dir/build.make CMakeFiles/TP1.dir/TP1/ex7.cpp.s
 .PHONY : TP1/ex7.cpp.s
 
+TP2/TP2a/ex1.o: TP2/TP2a/ex1.cpp.o
+.PHONY : TP2/TP2a/ex1.o
+
+# target to build an object file
+TP2/TP2a/ex1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex1.cpp.o
+.PHONY : TP2/TP2a/ex1.cpp.o
+
+TP2/TP2a/ex1.i: TP2/TP2a/ex1.cpp.i
+.PHONY : TP2/TP2a/ex1.i
+
+# target to preprocess a source file
+TP2/TP2a/ex1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex1.cpp.i
+.PHONY : TP2/TP2a/ex1.cpp.i
+
+TP2/TP2a/ex1.s: TP2/TP2a/ex1.cpp.s
+.PHONY : TP2/TP2a/ex1.s
+
+# target to generate assembly for a file
+TP2/TP2a/ex1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex1.cpp.s
+.PHONY : TP2/TP2a/ex1.cpp.s
+
+TP2/TP2a/ex2.o: TP2/TP2a/ex2.cpp.o
+.PHONY : TP2/TP2a/ex2.o
+
+# target to build an object file
+TP2/TP2a/ex2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex2.cpp.o
+.PHONY : TP2/TP2a/ex2.cpp.o
+
+TP2/TP2a/ex2.i: TP2/TP2a/ex2.cpp.i
+.PHONY : TP2/TP2a/ex2.i
+
+# target to preprocess a source file
+TP2/TP2a/ex2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex2.cpp.i
+.PHONY : TP2/TP2a/ex2.cpp.i
+
+TP2/TP2a/ex2.s: TP2/TP2a/ex2.cpp.s
+.PHONY : TP2/TP2a/ex2.s
+
+# target to generate assembly for a file
+TP2/TP2a/ex2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex2.cpp.s
+.PHONY : TP2/TP2a/ex2.cpp.s
+
+TP2/TP2a/ex3.o: TP2/TP2a/ex3.cpp.o
+.PHONY : TP2/TP2a/ex3.o
+
+# target to build an object file
+TP2/TP2a/ex3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex3.cpp.o
+.PHONY : TP2/TP2a/ex3.cpp.o
+
+TP2/TP2a/ex3.i: TP2/TP2a/ex3.cpp.i
+.PHONY : TP2/TP2a/ex3.i
+
+# target to preprocess a source file
+TP2/TP2a/ex3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex3.cpp.i
+.PHONY : TP2/TP2a/ex3.cpp.i
+
+TP2/TP2a/ex3.s: TP2/TP2a/ex3.cpp.s
+.PHONY : TP2/TP2a/ex3.s
+
+# target to generate assembly for a file
+TP2/TP2a/ex3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex3.cpp.s
+.PHONY : TP2/TP2a/ex3.cpp.s
+
+TP2/TP2a/ex4.o: TP2/TP2a/ex4.cpp.o
+.PHONY : TP2/TP2a/ex4.o
+
+# target to build an object file
+TP2/TP2a/ex4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex4.cpp.o
+.PHONY : TP2/TP2a/ex4.cpp.o
+
+TP2/TP2a/ex4.i: TP2/TP2a/ex4.cpp.i
+.PHONY : TP2/TP2a/ex4.i
+
+# target to preprocess a source file
+TP2/TP2a/ex4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex4.cpp.i
+.PHONY : TP2/TP2a/ex4.cpp.i
+
+TP2/TP2a/ex4.s: TP2/TP2a/ex4.cpp.s
+.PHONY : TP2/TP2a/ex4.s
+
+# target to generate assembly for a file
+TP2/TP2a/ex4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/TP2/TP2a/ex4.cpp.s
+.PHONY : TP2/TP2a/ex4.cpp.s
+
+TP2/TP2b/ex1.o: TP2/TP2b/ex1.cpp.o
+.PHONY : TP2/TP2b/ex1.o
+
+# target to build an object file
+TP2/TP2b/ex1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/TP2/TP2b/ex1.cpp.o
+.PHONY : TP2/TP2b/ex1.cpp.o
+
+TP2/TP2b/ex1.i: TP2/TP2b/ex1.cpp.i
+.PHONY : TP2/TP2b/ex1.i
+
+# target to preprocess a source file
+TP2/TP2b/ex1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/TP2/TP2b/ex1.cpp.i
+.PHONY : TP2/TP2b/ex1.cpp.i
+
+TP2/TP2b/ex1.s: TP2/TP2b/ex1.cpp.s
+.PHONY : TP2/TP2b/ex1.s
+
+# target to generate assembly for a file
+TP2/TP2b/ex1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/TP2/TP2b/ex1.cpp.s
+.PHONY : TP2/TP2b/ex1.cpp.s
+
+TP2/TP2b/ex2.o: TP2/TP2b/ex2.cpp.o
+.PHONY : TP2/TP2b/ex2.o
+
+# target to build an object file
+TP2/TP2b/ex2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/TP2/TP2b/ex2.cpp.o
+.PHONY : TP2/TP2b/ex2.cpp.o
+
+TP2/TP2b/ex2.i: TP2/TP2b/ex2.cpp.i
+.PHONY : TP2/TP2b/ex2.i
+
+# target to preprocess a source file
+TP2/TP2b/ex2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/TP2/TP2b/ex2.cpp.i
+.PHONY : TP2/TP2b/ex2.cpp.i
+
+TP2/TP2b/ex2.s: TP2/TP2b/ex2.cpp.s
+.PHONY : TP2/TP2b/ex2.s
+
+# target to generate assembly for a file
+TP2/TP2b/ex2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/TP2/TP2b/ex2.cpp.s
+.PHONY : TP2/TP2b/ex2.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1.dir/build.make CMakeFiles/TP1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -409,6 +581,8 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1.dir/build.make CMakeFiles/TP1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -417,6 +591,8 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1.dir/build.make CMakeFiles/TP1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2a.dir/build.make CMakeFiles/TP2a.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2b.dir/build.make CMakeFiles/TP2b.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -432,6 +608,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... TP1"
+	@echo "... TP2a"
+	@echo "... TP2b"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
@@ -457,6 +635,24 @@ help:
 	@echo "... TP1/ex7.o"
 	@echo "... TP1/ex7.i"
 	@echo "... TP1/ex7.s"
+	@echo "... TP2/TP2a/ex1.o"
+	@echo "... TP2/TP2a/ex1.i"
+	@echo "... TP2/TP2a/ex1.s"
+	@echo "... TP2/TP2a/ex2.o"
+	@echo "... TP2/TP2a/ex2.i"
+	@echo "... TP2/TP2a/ex2.s"
+	@echo "... TP2/TP2a/ex3.o"
+	@echo "... TP2/TP2a/ex3.i"
+	@echo "... TP2/TP2a/ex3.s"
+	@echo "... TP2/TP2a/ex4.o"
+	@echo "... TP2/TP2a/ex4.i"
+	@echo "... TP2/TP2a/ex4.s"
+	@echo "... TP2/TP2b/ex1.o"
+	@echo "... TP2/TP2b/ex1.i"
+	@echo "... TP2/TP2b/ex1.s"
+	@echo "... TP2/TP2b/ex2.o"
+	@echo "... TP2/TP2b/ex2.i"
+	@echo "... TP2/TP2b/ex2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

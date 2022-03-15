@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TP1"
+			"path" : "TP2a"
 		}
 	],
 	"backtrace" : 1,
@@ -27,13 +27,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 19,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -106,10 +106,7 @@
 				1,
 				2,
 				3,
-				4,
-				5,
-				6,
-				7
+				4
 			]
 		}
 	],
@@ -117,22 +114,22 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gmock::@7e3384afdb8f59c86a5a"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "gmock_main::@7e3384afdb8f59c86a5a"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest::@ccedbc95f081fc42d06b"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@ccedbc95f081fc42d06b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gmock::@7e3384afdb8f59c86a5a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gmock_main::@7e3384afdb8f59c86a5a"
 		}
 	],
-	"id" : "TP1::@6890427a1f51a3e7e1df",
+	"id" : "TP2a::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -168,8 +165,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TP1",
-	"nameOnDisk" : "TP1",
+	"name" : "TP2a",
+	"nameOnDisk" : "TP2a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -185,10 +182,7 @@
 				1,
 				2,
 				3,
-				4,
-				5,
-				6,
-				7
+				4
 			]
 		}
 	],
@@ -203,43 +197,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TP1/ex1.cpp",
+			"path" : "TP2/TP2a/ex1.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TP1/ex2.cpp",
+			"path" : "TP2/TP2a/ex2.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TP1/ex3.cpp",
+			"path" : "TP2/TP2a/ex3.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TP1/ex4.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "TP1/ex5.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "TP1/ex6.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "TP1/ex7.cpp",
+			"path" : "TP2/TP2a/ex4.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

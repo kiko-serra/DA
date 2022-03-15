@@ -40,6 +40,46 @@
   "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP1/ex7.cpp"
 },
 {
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2a.dir/main.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/main.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/main.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2a.dir/TP2/TP2a/ex1.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex1.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex1.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2a.dir/TP2/TP2a/ex2.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex2.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex2.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2a.dir/TP2/TP2a/ex3.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex3.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex3.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2a.dir/TP2/TP2a/ex4.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex4.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2a/ex4.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2b.dir/main.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/main.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/main.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2b.dir/TP2/TP2b/ex1.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/ex1.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/ex1.cpp"
+},
+{
+  "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build",
+  "command": "/usr/bin/clang++  -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -g -std=gnu++11 -o CMakeFiles/TP2b.dir/TP2/TP2b/ex2.cpp.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/ex2.cpp\"",
+  "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/TP2/TP2b/ex2.cpp"
+},
+{
   "directory": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/build/lib/googletest-master/googlemock",
   "command": "/usr/bin/clang++  -I\"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/include\" -I\"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest/include\" -isystem \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googletest\" -g -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c \"/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/src/gmock-all.cc\"",
   "file": "/Users/FranciscoSerra/Desktop/FEUP/2º Ano/2º Semestre/DA/lib/googletest-master/googlemock/src/gmock-all.cc"
