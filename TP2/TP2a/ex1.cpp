@@ -19,12 +19,13 @@ void  Labyrinth::print() const {
 }
 
 bool Labyrinth::findGoal(int x, int y) {
-    if (x > 10 || x <= 0 || y > 10 || y <= 0) return false;
+    if (x >= 10 || x <= 0 || y >= 10 || y <= 0) return false;
     //if para garantir os parametros
     if (visited[x][y]) return false; //se ja o visitamos nao voltamos la
+    else visited[x][y] = true; // se nao estiver visited passa a estar
     if (labyrinth[x][y] == 2) return true; // se for o objetivo acabamos
     if (labyrinth[x][y] == 0) return false; // se for parede nao vamos
-     return findGoal(x + 1, y) || findGoal(x, y + 1) || findGoal(x - 1 , y) || findGoal(x, y - 1);
+    return (findGoal(x + 1, y) || findGoal(x, y + 1) || findGoal(x - 1 , y) || findGoal(x, y - 1));
 }
 
 void Labyrinth::initializeVisited() {
