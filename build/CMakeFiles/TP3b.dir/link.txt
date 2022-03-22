@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/TP3b.dir/main.cpp.o CMakeFiles/TP3b.dir/TP3/TP3b/TestAux.cpp.o CMakeFiles/TP3b.dir/TP3/TP3b/ex1.cpp.o CMakeFiles/TP3b.dir/TP3/TP3b/ex2.cpp.o -o TP3b  lib/libgtest_maind.a lib/libgmock_maind.a lib/libgmockd.a lib/libgtestd.a 

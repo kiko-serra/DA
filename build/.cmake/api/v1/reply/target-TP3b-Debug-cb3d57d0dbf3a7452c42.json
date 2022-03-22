@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TP2b"
+			"path" : "TP3b"
 		}
 	],
 	"backtrace" : 1,
@@ -27,13 +27,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -104,7 +104,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -127,7 +128,7 @@
 			"id" : "gtest_main::@ccedbc95f081fc42d06b"
 		}
 	],
-	"id" : "TP2b::@6890427a1f51a3e7e1df",
+	"id" : "TP3b::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -163,8 +164,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TP2b",
-	"nameOnDisk" : "TP2b",
+	"name" : "TP3b",
+	"nameOnDisk" : "TP3b",
 	"paths" : 
 	{
 		"build" : ".",
@@ -178,7 +179,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -193,13 +195,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TP2/TP2b/ex1.cpp",
+			"path" : "TP3/TP3b/TestAux.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TP2/TP2b/ex2.cpp",
+			"path" : "TP3/TP3b/ex1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "TP3/TP3b/ex2.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
